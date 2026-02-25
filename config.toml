@@ -1,0 +1,9 @@
+[[listeners]]
+port = 8080
+protocol = "Gb26875"
+bind_addr = "0.0.0.0"
+
+[[listeners]]
+port = 8081
+protocol = "Lora"
+bind_addr = "0.0.0.0"
