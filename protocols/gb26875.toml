@@ -1,0 +1,44 @@
+[[fields]]
+name = "start"
+length = 2
+encoding = "Bytes"
+
+[[fields]]
+name = "device_id"
+length = 2
+encoding = "BigEndianU16"
+
+[[fields]]
+name = "command"
+length = 1
+encoding = "U8"
+
+[[fields]]
+name = "length"
+length = 1
+encoding = "U8"
+
+[[fields]]
+name = "address"
+length = 2
+encoding = "BigEndianU16"
+
+[[fields]]
+name = "data_domain_length"
+length = 2
+encoding = "BigEndianU16"
+
+[[fields]]
+name = "time_tag"
+length = 7
+encoding = "Bcd"
+
+[[fields]]
+name = "checksum"
+length = 1
+encoding = "U8"
+
+[[fields]]
+name = "end"
+length = 2
+encoding = "Bytes"
